@@ -45,12 +45,16 @@ namespace asynchronous_server_socket
             // The DNS name of the computer  
             // running the listener is "host.contoso.com".  
             IPHostEntry ipHostInfo = Dns.GetHostEntry(Dns.GetHostName());
-            IPAddress ipAddress = ipHostInfo.AddressList[0];
+            Console.WriteLine("Host Name: " + Dns.GetHostName().ToString());
+            IPAddress ipAddress = ipHostInfo.AddressList[1];
             IPEndPoint localEndPoint = new IPEndPoint(ipAddress, 11000);
 
             // Create a TCP/IP socket.  
             Socket listener = new Socket(ipAddress.AddressFamily,
                 SocketType.Stream, ProtocolType.Tcp);
+
+            for (int i = 0; i < ipHostInfo.AddressList.Length; i++)
+                Console.WriteLine("IP[" + i + "]: " + ipHostInfo.AddressList[i].ToString());
 
             // Bind the socket to the local endpoint and listen for incoming connections.  
             try

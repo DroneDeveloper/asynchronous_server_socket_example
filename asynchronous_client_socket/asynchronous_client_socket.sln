@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asynchronous_client_socket", "asynchronous_client_socket\asynchronous_client_socket.csproj", "{F7E8F8D1-CCAF-4F30-BB0A-0693E5C1EC3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7E8F8D1-CCAF-4F30-BB0A-0693E5C1EC3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7E8F8D1-CCAF-4F30-BB0A-0693E5C1EC3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7E8F8D1-CCAF-4F30-BB0A-0693E5C1EC3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7E8F8D1-CCAF-4F30-BB0A-0693E5C1EC3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80AA347A-5BD2-48E7-B438-52738E9C66F0}
+	EndGlobalSection
+EndGlobal
